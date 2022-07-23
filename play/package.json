@@ -1,0 +1,16 @@
+{
+  "name": "play",
+  "private": true,
+  "description": "组件演示",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "leon",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.1",
+    "vite": "^3.0.2"
+  }
+}

@@ -4,7 +4,7 @@
  * @author Leon
  * @Date 2022-07-21 19:29:08
  * @LastEditors Leon
- * @LastEditTime 2022-07-23 20:43:48
+ * @LastEditTime 2022-07-21 20:29:08
  */
 module.exports = {
   env: {
@@ -37,5 +37,7 @@ module.exports = {
     ],
     'vue/comment-directive': 'off'
   },
-  globals: {}
+  globals: {
+    BMap: true
+  }
 }

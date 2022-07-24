@@ -6,3 +6,5 @@
  * @LastEditors Leon
  * @LastEditTime 2022-07-21 20:29:08
  */
+import path from 'path'
+export const projectRoot = path.resolve(__dirname, '../')

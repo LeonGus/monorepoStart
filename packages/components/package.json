@@ -1,0 +1,30 @@
+{
+  "name": "@hgj/truck-components-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/lib/index.js",
+  "style": "dist/lib/index.css",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "clean:dist": "rimraf dist",
+    "build": "gulp"
+  },
+  "keywords": [],
+  "author": "leon",
+  "license": "ISC",
+  "dependencies": {
+    "vue-demi": "^0.13.5"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.0.0-rc.1",
+    "vue": "^2.0.0 || >=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
